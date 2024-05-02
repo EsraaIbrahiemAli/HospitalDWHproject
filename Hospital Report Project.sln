@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Hospital Report Project", "Hospital Report Project\Hospital Report Project.rptproj", "{A9247297-1574-4DCB-A132-FBD2715BD4CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9247297-1574-4DCB-A132-FBD2715BD4CA}.Debug|Default.ActiveCfg = Debug
+		{A9247297-1574-4DCB-A132-FBD2715BD4CA}.Debug|Default.Build.0 = Debug
+		{A9247297-1574-4DCB-A132-FBD2715BD4CA}.Debug|Default.Deploy.0 = Debug
+		{A9247297-1574-4DCB-A132-FBD2715BD4CA}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{A9247297-1574-4DCB-A132-FBD2715BD4CA}.DebugLocal|Default.Build.0 = DebugLocal
+		{A9247297-1574-4DCB-A132-FBD2715BD4CA}.Release|Default.ActiveCfg = Release
+		{A9247297-1574-4DCB-A132-FBD2715BD4CA}.Release|Default.Build.0 = Release
+		{A9247297-1574-4DCB-A132-FBD2715BD4CA}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35D1D378-0633-468A-9124-8C2FBC97C00C}
+	EndGlobalSection
+EndGlobal

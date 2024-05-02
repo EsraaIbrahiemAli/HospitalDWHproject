@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="-18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID="";Initial Catalog=Hospital;Data Source=DESKTOP-HQGSQNR\SOSO;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name="";Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication="";TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Diagnosis.id,
+	Diagnosis.icd_code,
+	Diagnosis.diagnosis_desc,
+	Diagnosis.total_diag,
+	Diagnosis.primary_diag,
+	Diagnosis.second_diag 
+from Diagnosis</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-HQGSQNR\SOSO
+Catalog=Hospital
+Query=select Diagnosis.id,
+	Diagn...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=Hospital;Data Source=DESKTOP-HQGSQNR\SOSO;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Diagnosis.id,&#xA;	Diagnosis.icd_code,&#xA;	Diagnosis.diagnosis_desc,&#xA;	Diagnosis.total_diag,&#xA;	Diagnosis.primary_diag,&#xA;	Diagnosis.second_diag &#xA;from Diagnosis" type="Int32" />
+            <Field name="icd_code" size="16777216" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=Hospital;Data Source=DESKTOP-HQGSQNR\SOSO;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Diagnosis.id,&#xA;	Diagnosis.icd_code,&#xA;	Diagnosis.diagnosis_desc,&#xA;	Diagnosis.total_diag,&#xA;	Diagnosis.primary_diag,&#xA;	Diagnosis.second_diag &#xA;from Diagnosis" type="V_String" />
+            <Field name="diagnosis_desc" size="16777216" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=Hospital;Data Source=DESKTOP-HQGSQNR\SOSO;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Diagnosis.id,&#xA;	Diagnosis.icd_code,&#xA;	Diagnosis.diagnosis_desc,&#xA;	Diagnosis.total_diag,&#xA;	Diagnosis.primary_diag,&#xA;	Diagnosis.second_diag &#xA;from Diagnosis" type="V_String" />
+            <Field name="total_diag" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=Hospital;Data Source=DESKTOP-HQGSQNR\SOSO;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Diagnosis.id,&#xA;	Diagnosis.icd_code,&#xA;	Diagnosis.diagnosis_desc,&#xA;	Diagnosis.total_diag,&#xA;	Diagnosis.primary_diag,&#xA;	Diagnosis.second_diag &#xA;from Diagnosis" type="Int32" />
+            <Field name="primary_diag" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=Hospital;Data Source=DESKTOP-HQGSQNR\SOSO;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Diagnosis.id,&#xA;	Diagnosis.icd_code,&#xA;	Diagnosis.diagnosis_desc,&#xA;	Diagnosis.total_diag,&#xA;	Diagnosis.primary_diag,&#xA;	Diagnosis.second_diag &#xA;from Diagnosis" type="Int32" />
+            <Field name="second_diag" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=Hospital;Data Source=DESKTOP-HQGSQNR\SOSO;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Diagnosis.id,&#xA;	Diagnosis.icd_code,&#xA;	Diagnosis.diagnosis_desc,&#xA;	Diagnosis.total_diag,&#xA;	Diagnosis.primary_diag,&#xA;	Diagnosis.second_diag &#xA;from Diagnosis" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="426" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID="";Initial Catalog=hospitalDWH;Data Source=DESKTOP-HQGSQNR\soso;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name="";Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication="";TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||fact</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="total_diag" Dest="total_daigno" />
+                <Field Source="dim_diagnosis_id" Dest="dim_diagno_id" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Delete</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-HQGSQNR\soso
+Catalog=hospitalDWH
+Query=fact</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID="";Initial Catalog=hospitalDWH;Data Source=DESKTOP-HQGSQNR\soso;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name="";Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication="";TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Dim_Diagnosis.dim_diagnosis_id,
+	Dim_Diagnosis.dim_diagnosis_icd_code,
+	Dim_Diagnosis.dim_diagnosis_desc,
+	Dim_Diagnosis.dim_diagnosis_primary,
+	Dim_Diagnosis.dim_diagnosis_second 
+from Dim_Diagnosis</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-HQGSQNR\soso
+Catalog=hospitalDWH
+Query=select Dim_Diagnosis.dim_dia...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="dim_diagnosis_id" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=hospitalDWH;Data Source=DESKTOP-HQGSQNR\soso;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Dim_Diagnosis.dim_diagnosis_id,&#xA;	Dim_Diagnosis.dim_diagnosis_icd_code,&#xA;	Dim_Diagnosis.dim_diagnosis_desc,&#xA;	Dim_Diagnosis.dim_diagnosis_primary,&#xA;	Dim_Diagnosis.dim_diagnosis_second &#xA;from Dim_Diagnosis" type="Int32" />
+            <Field name="dim_diagnosis_icd_code" size="16777216" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=hospitalDWH;Data Source=DESKTOP-HQGSQNR\soso;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Dim_Diagnosis.dim_diagnosis_id,&#xA;	Dim_Diagnosis.dim_diagnosis_icd_code,&#xA;	Dim_Diagnosis.dim_diagnosis_desc,&#xA;	Dim_Diagnosis.dim_diagnosis_primary,&#xA;	Dim_Diagnosis.dim_diagnosis_second &#xA;from Dim_Diagnosis" type="V_String" />
+            <Field name="dim_diagnosis_desc" size="16777216" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=hospitalDWH;Data Source=DESKTOP-HQGSQNR\soso;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Dim_Diagnosis.dim_diagnosis_id,&#xA;	Dim_Diagnosis.dim_diagnosis_icd_code,&#xA;	Dim_Diagnosis.dim_diagnosis_desc,&#xA;	Dim_Diagnosis.dim_diagnosis_primary,&#xA;	Dim_Diagnosis.dim_diagnosis_second &#xA;from Dim_Diagnosis" type="V_String" />
+            <Field name="dim_diagnosis_primary" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=hospitalDWH;Data Source=DESKTOP-HQGSQNR\soso;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Dim_Diagnosis.dim_diagnosis_id,&#xA;	Dim_Diagnosis.dim_diagnosis_icd_code,&#xA;	Dim_Diagnosis.dim_diagnosis_desc,&#xA;	Dim_Diagnosis.dim_diagnosis_primary,&#xA;	Dim_Diagnosis.dim_diagnosis_second &#xA;from Dim_Diagnosis" type="Int32" />
+            <Field name="dim_diagnosis_second" source="File: odb:Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Persist Security Info=False;User ID=&quot;&quot;;Initial Catalog=hospitalDWH;Data Source=DESKTOP-HQGSQNR\soso;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-HQGSQNR;Initial File Name=&quot;&quot;;Use Encryption for Data=False;Tag with column collation when possible=False;MARS Connection=False;DataTypeCompatibility=0;Trust Server Certificate=False;Application Intent=READWRITE;MultiSubnetFailover=False;Use FMTONLY=False;Authentication=&quot;&quot;;TransparentNetworkIPResolution=True;Connect Retry Count=1;Connect Retry Interval=10|||select Dim_Diagnosis.dim_diagnosis_id,&#xA;	Dim_Diagnosis.dim_diagnosis_icd_code,&#xA;	Dim_Diagnosis.dim_diagnosis_desc,&#xA;	Dim_Diagnosis.dim_diagnosis_primary,&#xA;	Dim_Diagnosis.dim_diagnosis_second &#xA;from Dim_Diagnosis" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="dim_diagnosis_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_id" selected="True" input="Left_" />
+                <SelectField field="Left_icd_code" selected="True" input="Left_" />
+                <SelectField field="Left_diagnosis_desc" selected="True" input="Left_" />
+                <SelectField field="Left_total_diag" selected="True" input="Left_" />
+                <SelectField field="Left_primary_diag" selected="True" input="Left_" />
+                <SelectField field="Left_second_diag" selected="True" input="Left_" />
+                <SelectField field="Right_dim_diagnosis_id" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Diagnosis Workflow1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0a2c7754-f2df-4f3f-a043-71b3fd8392cd" />
+      <Telemetry>
+        <PreviousWorkflowId value="7c5ac0f1-4b1f-4341-997a-c4a965362f59" />
+        <OriginWorkflowId value="7c5ac0f1-4b1f-4341-997a-c4a965362f59" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

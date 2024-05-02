@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ETL of Hospital", "ETL of Hospital\ETL of Hospital.dtproj", "{B24BF6CB-589D-4056-ADDC-AABC9B16B56D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B24BF6CB-589D-4056-ADDC-AABC9B16B56D}.Development|Default.ActiveCfg = Development
+		{B24BF6CB-589D-4056-ADDC-AABC9B16B56D}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB0A10E2-ACD6-4B6D-994B-3B1310DB924F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HospitalDataSource">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DESKTOP-HQGSQNR\soso;Initial Catalog=hospitalDWH</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>b3a00686-5f2a-46bb-93f1-289a36ae46a4</DataSourceID>
+</RptDataSource>

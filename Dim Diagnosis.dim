@@ -1,0 +1,156 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="53b1bcb5-26f7-40bf-86a7-0407b549c02e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Diagnosis</ID>
+  <Name>Dim Diagnosis</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f4291121-86de-4cb4-a9f1-e5a983dfb6f7">
+    <DataSourceViewID>Hospital DWH</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="4e0d45e3-f5de-4e44-83b2-a2e036200456">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="e52a9d17-de21-4327-be9f-7250f6830654">
+      <ID>Dim Diagnosis Id</ID>
+      <Name>Dim Diagnosis Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c0f2db32-2900-4975-aae8-7acfe065ca06">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae0723ae-237e-4e4a-b721-27123ea94bed">
+            <TableID>dbo_Dim_Diagnosis</TableID>
+            <ColumnID>dim_diagnosis_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="77635d14-3f9c-445f-829e-0b44d91c483d">
+          <AttributeID>Dim Diagnosis Icd Code</AttributeID>
+          <Name>Dim Diagnosis Icd Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5dcc948e-5d2e-4de9-9cac-36faa92b02eb">
+          <AttributeID>Dim Diagnosis Desc</AttributeID>
+          <Name>Dim Diagnosis Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1fc3e431-5823-4c76-875e-8b9ad9482f1a">
+          <AttributeID>Dim Diagnosis Primary</AttributeID>
+          <Name>Dim Diagnosis Primary</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7118d6f2-4297-4cb4-a0a5-f60bd6257876">
+          <AttributeID>Dim Diagnosis Second</AttributeID>
+          <Name>Dim Diagnosis Second</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="94cf8f47-2774-4a3d-a1e9-ec3a4c8eaa92">
+      <ID>Dim Diagnosis Icd Code</ID>
+      <Name>Dim Diagnosis Icd Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a12cd285-8c64-4bee-945c-c7f06c5e66e4">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="acc6b894-af6b-432f-b8b4-63f00a3c8bc2">
+            <TableID>dbo_Dim_Diagnosis</TableID>
+            <ColumnID>dim_diagnosis_icd_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fecbc950-3984-433c-b982-6ae0d43f8cca">
+      <ID>Dim Diagnosis Desc</ID>
+      <Name>Dim Diagnosis Desc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="35b36ceb-c4c1-4b31-9ea4-457c366e0df6">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af47aa6e-b1f9-4988-8178-ab1562ab6107">
+            <TableID>dbo_Dim_Diagnosis</TableID>
+            <ColumnID>dim_diagnosis_desc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a0351708-5a12-47ce-995a-0a621661e14c">
+      <ID>Dim Diagnosis Primary</ID>
+      <Name>Dim Diagnosis Primary</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a4851d19-b612-4579-8cce-79ac603c089d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5a3813a-ef5f-4ca1-8a38-ae03d4b76d0c">
+            <TableID>dbo_Dim_Diagnosis</TableID>
+            <ColumnID>dim_diagnosis_primary</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a516958d-af9d-46ae-87cf-266b16d59b15">
+      <ID>Dim Diagnosis Second</ID>
+      <Name>Dim Diagnosis Second</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5ba4e829-994e-462e-89c7-ecd0ae1b4ef2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="92fc7c01-4b76-44e8-bd14-14686ed5d946">
+            <TableID>dbo_Dim_Diagnosis</TableID>
+            <ColumnID>dim_diagnosis_second</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
